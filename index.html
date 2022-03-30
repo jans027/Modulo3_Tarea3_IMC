@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <h3>CALCULADORA IMC</h3>
+        </div>
+        <div>
+            <h4>Descubre su indice de masa corporal</h4>
+        </div>
+        <form class="formulario">
+
+
+            <label>Sexo</label>
+            <span class="botones">
+
+                <span class="decoracion1">
+                    <button class="boton01" type="button"><img src="images/man-silhouette.png" alt="x" /></button>
+                </span>
+                <span class="decoracion2">
+                    <button class="boton01" type="button"><img src="images/woman.png" alt="x" /></button>
+                </span>
+            </span>
+            <br><br>
+            <label for="floatingInput">Edad <input type="number" class="edad" id="input"></label><br><br>
+            <label for="floatingInput">Peso <input type="number" class="peso" id="input"><span class="verde">KG</span></label><br><br>
+            <label for="floatingInput">Altura <input type="number" class="altura" id="input"> <span class="verde">M</span></label>
+        </form>
+        <div class="boton">
+            <button class="button" type="button" onclick="alert('Resultado')">CALCULAR IMC</button>
+        </div>
+    </div>
+</body>
+</html>
